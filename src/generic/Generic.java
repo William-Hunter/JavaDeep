@@ -1,5 +1,8 @@
 package generic;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Generic {
 	/**
 	 * <T,M>    尖括号包围的区域是用来定义类型的，只有先预先定义了类型，才能去使用这个类进行指代。
@@ -32,8 +35,40 @@ public class Generic {
 		System.out.println();
 	}
 	
-	
-	
+	//可使用的参数类型的范围为  T和任何从T继承的S
+	public static <T,S extends T> S extend(T t,S s){
+		return s;		
+	}
 	
 
 }
+
+class Store<E>{
+	private List<E> list;	
+	
+	Store(){
+		this.list=new ArrayList<E>();
+	}
+	
+	public void add(E e){
+		this.list.add(e);
+	}
+	
+	public void removeByIndex(int index){
+		this.list.remove(index);
+	}
+	
+	public E getByIndex(int index){
+		return this.list.get(index);
+		
+	}
+	public void change(E e,int index){
+		this.list.set(index, e);		
+	}
+	
+}
+
+class Store2 extends Store{
+	
+}
+

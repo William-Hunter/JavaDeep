@@ -14,9 +14,9 @@ public class Main {
         Object obj=_class.newInstance();                //将这个类实例化
         System.out.println("tell me which method you wanted call:");
         Method method=_class.getMethod(scan.nextLine());
-        method.invoke(obj);
+        method.invoke(obj);		//执行此函数
         System.out.println("tell me which field you wanted call:");
         Field field=_class.getField(scan.nextLine());
-        System.out.println(field.get(obj));
+        System.out.println(field.get(obj));		//获取此对象的属性的值
     }
 }

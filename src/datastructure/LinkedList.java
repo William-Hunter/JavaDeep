@@ -51,7 +51,7 @@ public class LinkedList {
     /**
      * index从1开始
      */
-    public static Node add(Node head, int index, String value) {
+    public static Node add(Node head, int index, Object value) {
         Node current = head;
         for (int count = 1; count < index - 1; count++) {
             current = current.next;
@@ -91,7 +91,7 @@ public class LinkedList {
         }
     }
 
-    public static boolean update(Node head, int index, String value) {
+    public static boolean update(Node head, int index, Object value) {
         try {
             Node current = head;
             for (int count = 1; count < index; count++) {
@@ -105,7 +105,7 @@ public class LinkedList {
         }
     }
 
-    public static String get(Node head, int index) {
+    public static Object get(Node head, int index) {
         try {
             Node current = head;
             for (int count = 1; count < index; count++) {
@@ -120,7 +120,7 @@ public class LinkedList {
 
     public static void list(Node node) {
         if (node != null) {
-            System.out.print(node.value + "\t");
+            System.out.print(node.value.toString() + "\t");
             list(node.next);
         }
     }
@@ -128,7 +128,7 @@ public class LinkedList {
 }
 
 class Node {
-    public String value;
+    public Object value;
     public Node next;
 }
 

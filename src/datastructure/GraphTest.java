@@ -71,7 +71,7 @@ public class GraphTest {
     }
 
     public static String getQueue(Node head){
-        String retu=LinkedList.get(head,2);
+        String retu=LinkedList.get(head,2).toString();
         if(retu!=null&&LinkedList.delete(head,2)){
             return retu;
         }else{

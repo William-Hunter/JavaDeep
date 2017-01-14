@@ -22,7 +22,7 @@ public class HashTest {
                     break;
                 case "2":
                     System.out.print("请输入数字：\t");
-                    hashtable.add( Integer.valueOf(sc.nextLine()));
+                    hashtable.add(Integer.valueOf(sc.nextLine()));
                     System.out.println("----------------------------------------");
                     break;
                 case "3":
@@ -46,8 +46,6 @@ public class HashTest {
         }
         System.out.println("Bye Bye");
     }
-
-
 }
 
 class HashTable {
@@ -67,9 +65,8 @@ class HashTable {
         int remainder = number % MOD;
         Node current = hasharray[remainder];
         Node previous = null;
-        while (true) {
+        while (current!=null) {
             if (current.value.equals(number)) {
-                System.out.println("找到了");
                 if (previous == null) {
                     hasharray[remainder] = current.next;        //第一个
                 } else {
@@ -79,7 +76,6 @@ class HashTable {
             } else {
                 previous = current;                                       //继续循环
                 current = current.next;
-                System.out.println("do...");
             }
         }
     }

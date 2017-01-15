@@ -21,7 +21,9 @@ public class HashMapTest {
                 case "1":
                     System.out.print("请输入key,value：\t");
                     piece=sc.nextLine().split(",");
-                    map.setter(Integer.valueOf(piece[0]),piece[1]);
+                    int key=Integer.valueOf(piece[0]);
+                    map.remove(key);
+                    map.setter(key,piece[1]);
                     System.out.println("----------------------------------------");
                     break;
                 case "2":
@@ -37,9 +39,9 @@ public class HashMapTest {
                 case "3":
                     System.out.print("请输入key：\t");
                     if(map.remove(Integer.valueOf(sc.nextLine()))){
-                        System.out.print("删除成功\t");
+                        System.out.print("删除成功\n");
                     }else{
-                        System.out.print("删除失败\t");
+                        System.out.print("删除失败\n");
                     }
                     System.out.println("----------------------------------------");
                     break;

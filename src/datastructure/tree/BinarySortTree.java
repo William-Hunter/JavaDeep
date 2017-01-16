@@ -1,6 +1,6 @@
-package datastructure;
+package datastructure.tree;
 
-import static datastructure.BinarySortTree.index;
+import static datastructure.tree.BinarySortTree.index;
 
 /**
  * Created by Administrator on 2017/1/15.
@@ -9,7 +9,7 @@ public class BinarySortTree {
     static int index=0;
     public static void main(String[] args) {
         Work worker = new Work();
-        Point head = null;
+        Point<Integer> head = null;
         int[] array = {58, 13, 65, 42, 61, 88, 3, 76, 92};
         head = worker.create(head, array);
         int[] newarray = worker.sort(head);
@@ -44,21 +44,21 @@ class Work {
         for (int e : array) {
             head = put(head, e, 1);
             this.size++;
-//            System.out.println("size:"+this.size);
+            System.out.println("size:"+this.size);
         }
         return head;
     }
 
-    Point put(Point current, int value, int level) {
+    Point put(Point<Integer> current, int value, int level) {
         if (current == null) {
-            current = new Point();
+            current = new Point<Integer>();
             current.value = value;
-//            System.out.print("value:"+value+"\tlevel:"+level+"\n");
+            System.out.print("value:"+value+"\tlevel:"+level+"\n");
         } else if (value < (int) current.value) {
-//            System.out.print("left\t");
+            System.out.print("left\t");
             current.left = put(current.left, value, level + 1);
         } else {
-//            System.out.print("right\t");
+            System.out.print("right\t");
             current.right = put(current.right, value, level + 1);
         }
         return current;

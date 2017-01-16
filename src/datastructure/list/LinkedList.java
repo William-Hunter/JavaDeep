@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.list;
 
 import java.util.Scanner;
 
@@ -127,9 +127,6 @@ public class LinkedList {
 
 }
 
-class Node {
-    public Object value;
-    public Node next;
-}
+
 
 

@@ -1,8 +1,4 @@
-package datastructure;
-
-import com.sun.corba.se.impl.orbutil.graph.Graph;
-
-import javax.print.DocFlavor;
+package datastructure.list;
 
 /**
  * Created by Administrator on 2017/1/6.

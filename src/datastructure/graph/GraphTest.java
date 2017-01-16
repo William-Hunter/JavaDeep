@@ -1,6 +1,7 @@
-package datastructure;
+package datastructure.graph;
 
 import java.util.Scanner;
+import datastructure.list.*;
 
 /**
  * Created by Administrator on 2017/1/8.

@@ -1,5 +1,7 @@
-package datastructure;
+package datastructure.hash;
 
+import datastructure.list.LinkedList;
+import datastructure.list.Node;
 import java.util.Scanner;
 
 /**

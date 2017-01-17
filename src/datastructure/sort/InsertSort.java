@@ -38,7 +38,7 @@ public class InsertSort {
                 return head;                            //返回head，插入之后就结束函数
             }else{                                    //如果传入的数字小于当前节点值，就插入到当前节点后面，
                 prev=current;                           //先向后面走
-                current=current.next;
+                current=current.next;               System.out.println("do...");
             }
         }
         prev.next=new Node<Integer>();              //如果能循环完的话，说明一直都是大于，所以插入在尾部。

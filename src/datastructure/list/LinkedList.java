@@ -47,7 +47,6 @@ public class LinkedList {
         }
         System.out.println("Bye Bye");
     }
-
     /**
      * index从1开始
      */
@@ -67,7 +66,6 @@ public class LinkedList {
         }
         return head;
     }
-
     /**
      * index从1开始
      */
@@ -90,7 +88,6 @@ public class LinkedList {
             return false;
         }
     }
-
     public static boolean update(Node head, int index, Object value) {
         try {
             Node current = head;
@@ -104,7 +101,6 @@ public class LinkedList {
             return false;
         }
     }
-
     public static Object get(Node head, int index) {
         try {
             Node current = head;
@@ -117,14 +113,12 @@ public class LinkedList {
             return null;
         }
     }
-
     public static void list(Node node) {
         if (node != null) {
             System.out.print(node.value.toString() + "\t");
             list(node.next);
         }
     }
-
 }
 
 

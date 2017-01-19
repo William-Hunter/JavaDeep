@@ -6,9 +6,9 @@ import datastructure.list.*;
 /**
  * Created by Administrator on 2017/1/8.
  * 目前只处理有向图
+ * 存储方式为链表头组织成的数组，数组的存储的是顶点名（A，B，C，D），链表元素里面存储是矢量的终止节点的下标
  */
 public class GraphTest {
-
     public static void main(String[] args) {
         Node[] vertexs=null;
         vertexs=createAdjacencyList(vertexs);
@@ -16,22 +16,6 @@ public class GraphTest {
         traversal(vertexs);
         System.out.println("=========END==========");
     }
-
-    public static void traversal(Node[] vertexs){
-        System.out.println("display");
-        display(vertexs,vertexs[0]);
-    }
-
-    public static void display(Node[] vertexs,Node node){
-        String vec=getQueue(node);
-        while(vec!=null){
-            int vector=Integer.valueOf(vec);
-            System.out.println(node.value+"----->"+vertexs[vector].value);
-            display(vertexs,vertexs[vector]);
-            vec=getQueue(node);
-        }
-    }
-
     public static Node[] createAdjacencyList(Node[] vertexs) {
         System.out.println("请输入节点，请以英文逗号分隔");
         Scanner sc = new Scanner(System.in);
@@ -62,7 +46,20 @@ public class GraphTest {
         }
         return vertexs;
     }
+    public static void traversal(Node[] vertexs){
+        System.out.println("display");
+        display(vertexs,vertexs[0]);
+    }
 
+    public static void display(Node[] vertexs,Node node){
+        String vec=getQueue(node);
+        while(vec!=null){
+            int vector=Integer.valueOf(vec);
+            System.out.println(node.value+"----->"+vertexs[vector].value);
+            display(vertexs,vertexs[vector]);
+            vec=getQueue(node);
+        }
+    }
     public static void show(Node[] vertexs){
         for(int index=0;index<vertexs.length;index++){
             System.out.print(vertexs[index].value+":");
@@ -70,7 +67,6 @@ public class GraphTest {
             System.out.println();
         }
     }
-
     public static String getQueue(Node head){
         String retu=LinkedList.get(head,2).toString();
         if(retu!=null&&LinkedList.delete(head,2)){

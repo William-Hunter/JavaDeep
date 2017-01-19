@@ -7,7 +7,6 @@ import java.util.Scanner;
  * 尝试理解用hash实现的map，键值对存储方式，
  */
 public class HashMapTest {
-
     public static void main(String[] args) {
         HashMap map=new HashMap();
         Scanner sc = new Scanner(System.in);
@@ -60,11 +59,9 @@ public class HashMapTest {
         System.out.println("Bye Bye");
     }
 }
-
 class HashMap {
     Map[] hasharray;
     final int MOD=13;
-
     void list(){
         for(Map node:hasharray){
             while(node!=null){
@@ -74,12 +71,11 @@ class HashMap {
             System.out.println();
         }
     }
-
-    Object getter(int key) {
-        int remainder=key%MOD;
+    Object getter(int key) {                //根据key获取元素，
+        int remainder=key%MOD;              //算出散列的地址之后
         Map node=hasharray[remainder];
-        while(node!=null){
-            if (node.key==key){
+        while(node!=null){                  //循环链表
+            if (node.key==key){             //找到key对应的元素
                 return node;
             }else{
                 node=node.next;
@@ -87,47 +83,44 @@ class HashMap {
         }
         return null;
     }
-
-    void setter(int key, Object value) {
-        int remainder=key%MOD;
-        if(hasharray[remainder]==null){
-            hasharray[remainder]=new Map();
-            hasharray[remainder].key=key;
-            hasharray[remainder].value=value;
-        }else{
-            Map node = new Map();
-            node.key = key;
-            node.value = value;
+    void setter(int key, Object value) {        //存储键值对
+        int remainder=key%MOD;                  //计算散列地址
+        Map node = new Map();                   //新建节点
+        node.key = key;
+        node.value = value;
+        if(hasharray[remainder]==null){         //如果数组这个地址的元素（链表的第一个元素）是空，那么就新元素存进去
+            hasharray[remainder]=node;
+//            hasharray[remainder]=new Map();
+//            hasharray[remainder].key=key;
+//            hasharray[remainder].value=value;
+        }else{                                  //否则将新节点存在后面
             node.next = hasharray[remainder];
             hasharray[remainder] = node;
         }
     }
-
-    boolean remove(int key) {
-        int remainder=key%MOD;
-        Map node=hasharray[remainder];
-        Map prev=null;
-        while(node!=null){
-            if(node.key==key){
-                if(prev==null){
-                    hasharray[remainder]=node.next;
-                }else{
+    boolean remove(int key) {                       //根据key移除链表节点
+        int remainder=key%MOD;                      //根据key计算散列地址
+        Map node=hasharray[remainder];              //获取当前的数组的链表头
+        Map prev=null;                              //存储上一个节点的引用
+        while(node!=null){                          //循环这个数组的链表
+            if(node.key==key){                      //如果key是一致
+                if(prev==null){                         //如果当前节点是头节点
+                    hasharray[remainder]=node.next;     //直接把当前跳过去
+                }else{                                  //否则前节点吧当前节点跳过去
                     prev.next=node.next;
                 }
-                return true;
-            }else{
+                return true;                            //然后返回true，结束过程
+            }else{                                  //否则继续循环
                 prev=node;
                 node=node.next;
             }
         }
         return false;
     }
-
     HashMap(){
         hasharray=new Map[13];
-    }
+    }           //固定hash有13个地址
 }
-
 class Map{
     int key;
     Object value;

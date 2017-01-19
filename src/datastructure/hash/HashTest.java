@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Created by Administrator on 2017/1/3.
  */
 public class HashTest {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         HashTable hashtable = new HashTable();
@@ -49,49 +48,43 @@ public class HashTest {
         System.out.println("Bye Bye");
     }
 }
-
 class HashTable {
     Node[] hasharray;
     static final int MOD = 13;
-
     HashTable() {
         hasharray = new Node[13];
-    }
-
-    public void update(int originally, int afterward) {
-        delete( originally);
+    }                   //固定散列地址
+    public void update(int originally, int afterward) {         //修改数字，
+        delete( originally);                                    //先删除，再添加
         add( afterward);
     }
-
-    public void delete( Integer number) {
-        int remainder = number % MOD;
+    public void delete( Integer number) {                       //从hash表里面删除一个数字
+        int remainder = number % MOD;                           //计算散列地址
         Node current = hasharray[remainder];
         Node previous = null;
-        while (current!=null) {
-            if (current.value.equals(number)) {
-                if (previous == null) {
-                    hasharray[remainder] = current.next;        //第一个
+        while (current!=null) {                                 //循环链表
+            if (current.value.equals(number)) {                 //判断当前节点是否为所要寻找的
+                if (previous == null) {                         //如果是头节点，
+                    hasharray[remainder] = current.next;        //跳过这个节点即可
                 } else {
-                    previous.next = current.next;                         //其后的
+                    previous.next = current.next;
                 }
                 break;
             } else {
-                previous = current;                                       //继续循环
+                previous = current;                              //继续循环
                 current = current.next;
             }
         }
     }
-
-    public void add(int number) {
-        int remainder = number % MOD;
-        if (hasharray[remainder] == null) {
-            hasharray[remainder] = new Node();
+    public void add(int number) {                   //添加一个数字到哈希表
+        int remainder = number % MOD;                   //计算散列值
+        if (hasharray[remainder] == null) {             //如果没有头
+            hasharray[remainder] = new Node();          //就添加到头上去
             hasharray[remainder].value = number;
-        } else {
+        } else {                                        //否则添加到后面去
             hasharray[remainder] = LinkedList.add(hasharray[remainder], 1, number);
         }
     }
-
     public void list() {
         for (Node e : hasharray) {
             LinkedList.list(e);

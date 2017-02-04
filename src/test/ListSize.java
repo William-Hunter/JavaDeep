@@ -2,8 +2,7 @@ package test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.StringJoiner;
+import java.util.Scanner;
 
 /**
  * Created by Administrator on 2017/1/29.
@@ -12,8 +11,18 @@ public class ListSize {
     public static void main(String[] args){
 //        first();
 //        second();
-        third();
+//        third();
+        Scanner sc=new Scanner(System.in);
+        System.out.println(sc);
+
+//        String number="3";
+//        System.out.println(number.hashCode());
+//        test_param(number);
     }
+    static void test_param(String number){
+        System.out.println(number.hashCode());
+    }
+
     /**
      * 想要知道，list里面存储的是引用还是实例   answear：实例
      */
@@ -49,21 +58,24 @@ public class ListSize {
         System.out.println("2:"+list_b.get(1));
     }
     static void third(){
-        List<Object> list=new ArrayList<Object>();
+
+        /*
+         List<Object> list=new ArrayList<Object>();
         StringBuffer a=new StringBuffer("a");
+        System.out.print(a.hashCode()+"\n");
         list.add(a);
-        a.append("==");
+        System.out.print(a.append("==").hashCode()+"\n");
         for(Object e:list){
             System.out.print(e+"\t");
         }
-        /*
+        //a==
+
         List<Object> list=new ArrayList<Object>();
         String a="a";
         list.add(a);
-        a.toUpperCase();
+        a.toUpperCase();        //此处返回一个新实例，而引用a和所指向的实例没有变化
         System.out.println(list.get(0));
         //没有变化
-
 
         List<Object> list=new ArrayList<Object>();
         int a=1;
@@ -78,5 +90,8 @@ public class ListSize {
 /**
  * 总结：
  * 当使用add方法的时候，添加的是指针所指向的实例的地址
+ * 同理，get方法返回的是一个地址
  *  notice：=号是赋值，让指针指向了一个新实例
+ *  用hashcode来效验是否为同一个实例
+ *  String.toUpperCase()  创建了一个新实例
  */

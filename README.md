@@ -29,7 +29,7 @@
 在java的很多框架上都是用了注解这一java特性，很明显，这是使用了反射去实现这一技术。
 
 ##### the print of the program
-![](result.png)
+![](annotation.png)
 
 ### data structure
 -------------------------------
@@ -41,4 +41,5 @@
 --------------
 通过在调用提交任务方法的时候，先返回一个标识，然后开启新的线程执行任务，主线程等待一段时间完毕之后，检查任务完成情况，达到异步效果。
 例如，去蛋糕店去顶蛋糕，当你选购完毕，付账之后，会得到一张凭证，此时，蛋糕店厨房会使用新线程去烹饪蛋糕。用户等待一段时间之后，通过凭证领取蛋糕。
-[asynchronous pic](asynchronous.png)
+
+![asynchronous pic](asynchronous.png)

@@ -30,7 +30,7 @@ public class ObejctSaler {
         ObejctSaler saler2=new ObejctSaler("william");
         ObejctSaler saler3=new ObejctSaler("john");
         ObejctSaler saler4=new ObejctSaler("bean");
-        saler1.sale();
+        saler1.sale();                      //挨个执行，第一个saler会卖光所有的票
         saler2.sale();
         saler3.sale();
         saler4.sale();

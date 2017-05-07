@@ -14,13 +14,13 @@ public class Test {
         logger.info("=============START============");
 
         Worker worker=new Worker();
-        logger.info("send order");
+        logger.info("start make order");
         String key1=worker.order();
-        logger.info("send order");
+        logger.info("order:"+key1);
         String key2=worker.order();
-        logger.info("send order");
+        logger.info("order:"+key2);
         String key3=worker.order();
-        logger.info("send order");
+        logger.info("order:"+key3);
 
         try {
             logger.info("sleep");

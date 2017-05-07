@@ -25,12 +25,12 @@ public class Worker {
             public void run(){
                 logger.info("do work......");
                 map.put(number,number+"="+Math.random());
+                logger.info("work done......");
             }
         }.start();
 
         return number;
     }
-
 
     public String pickup(String key){
         return this.map.get(key);

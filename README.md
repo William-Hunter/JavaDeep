@@ -33,6 +33,10 @@
 
 ### data structure
 -------------------------------
+list ArrayList,    LinkedList
+
+tree
+
 
 
 
@@ -43,3 +47,16 @@
 例如，去蛋糕店去顶蛋糕，当你选购完毕，付账之后，会得到一张凭证，此时，蛋糕店厨房会使用新线程去烹饪蛋糕。用户等待一段时间之后，通过凭证领取蛋糕。
 
 ![asynchronous pic](asynchronous.png)
+
+
+### lambda
+----------
+
+
+
+### cglib
+----------
+
+
+
+

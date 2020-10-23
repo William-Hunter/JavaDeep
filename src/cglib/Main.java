@@ -10,17 +10,16 @@ import java.util.HashMap;
  */
 public class Main {
 
-    public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, IllegalAccessException {
+    public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         test();
-
     }
 
-    static void test() throws ClassNotFoundException, IllegalAccessException, InvocationTargetException {
+    static void test() throws IllegalAccessException, InvocationTargetException {
 // 设置类成员属性
         HashMap propertyMap = new HashMap();
-        propertyMap.put("id", Class.forName("java.lang.String"));
-        propertyMap.put("name", Class.forName("java.lang.String"));
-        propertyMap.put("address", Class.forName("java.lang.String"));
+        propertyMap.put("id", String.class);
+        propertyMap.put("name", String.class);
+        propertyMap.put("address", String.class);
 
         // 生成动态 Bean
         CglibBean bean = new CglibBean(propertyMap);

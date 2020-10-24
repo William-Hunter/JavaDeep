@@ -1,8 +1,9 @@
-package asynchronous;
+package thread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +21,6 @@ public class Worker {
 
     public String order() {
         String number = (Math.random() * 100)+"";
-
         new Thread(){
             public void run(){
                 try {
@@ -33,7 +33,6 @@ public class Worker {
                 logger.info("work done......");
             }
         }.start();
-
         return number;
     }
 

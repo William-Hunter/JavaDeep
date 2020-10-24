@@ -1,10 +1,15 @@
 package param;
 
+import java.time.LocalDate;
+
 /**
  * Created by Administrator on 2016/11/30.
  */
 public class TestParam {
     public static void main(String[] args) {
+
+    System.out.println(LocalDate.now());
+
         Example example = new Example();
 
         example.value = 100;

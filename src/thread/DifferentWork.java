@@ -1,4 +1,4 @@
-package synchronize;
+package thread;
 
 
 import org.slf4j.Logger;
@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 /**
  * Created by william on 17-2-10.
  * 要在线程里面加上sleep，这样，能把cpu资源留出来执行，有同步效果
+ * 测试多线程执行
+ *
  */
 public class DifferentWork {
     private static Logger logger = LoggerFactory.getLogger(DifferentWork.class);

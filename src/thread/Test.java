@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 public class Test {
     private static Logger logger = LoggerFactory.getLogger(Test.class);
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException {
         logger.info("=============START============");
 
         Worker worker=new Worker();

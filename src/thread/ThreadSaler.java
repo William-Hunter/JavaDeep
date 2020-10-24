@@ -1,13 +1,21 @@
 package synchronize;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 
 /**
+ *
+ * 重新多线程下的同时访问共享资源导致的数据错误，以及线程安全的效果
+ *
  * Created by william on 17-2-10.
  * 同一段代码（内存里只有一个实例）被多个线程同时执行
  *
  */
 public class ThreadSaler implements Runnable {
+    private static Logger logger = LoggerFactory.getLogger(ThreadSaler.class);
+
     private ArrayList<String> ticket;
 
     public ThreadSaler(ArrayList<String> ticket) {
@@ -16,7 +24,7 @@ public class ThreadSaler implements Runnable {
 
     synchronized boolean safeSale(){
         if(this.ticket.size()>0){
-            System.out.println(Thread.currentThread().getName()+"卖出了"+this.ticket.remove(this.ticket.size()-1)+"号票");
+            logger.info(Thread.currentThread().getName()+"卖出了"+this.ticket.remove(this.ticket.size()-1)+"号票");
             return true;
         }else{
             return false;
@@ -25,7 +33,7 @@ public class ThreadSaler implements Runnable {
 
     boolean dangerSale(){
         if(this.ticket.size()>0){
-            System.out.println(Thread.currentThread().getName()+"卖出了"+this.ticket.remove(this.ticket.size()-1)+"号票");
+            logger.info(Thread.currentThread().getName()+"卖出了"+this.ticket.remove(this.ticket.size()-1)+"号票");
             return true;
         }else{
             return false;
@@ -37,8 +45,10 @@ public class ThreadSaler implements Runnable {
      * */
     public void run() {
         try {
-            while(this.dangerSale()) {
-//            while(this.safeSale()) {
+//            while(this.dangerSale()) {
+            while(this.safeSale()) {
+//                Thread.sleep(new Double(Math.random() * 10000).intValue());
+//                Thread.sleep(1000);
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {

@@ -23,6 +23,11 @@ public class Worker {
 
         new Thread(){
             public void run(){
+                try {
+                    Thread.sleep(new Double(Math.random() * 100).intValue());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 logger.info("do work......");
                 map.put(number,number+"="+Math.random());
                 logger.info("work done......");
@@ -32,7 +37,8 @@ public class Worker {
         return number;
     }
 
-    public String pickup(String key){
+    public String pickup(String key) throws InterruptedException {
+        Thread.sleep(new Double(Math.random() * 100).intValue());
         return this.map.get(key);
     }
 

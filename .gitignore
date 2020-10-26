@@ -1,7 +1,20 @@
 
 out
-*.class
 bin
-.classpath
+
+
+# 开发工具产生的配置文件
+.idea/
+*.iml
 .project
-.settings
+.classpath
+.settings/
+
+# 编译结果
+*/target/
+*.class
+*.jar
+
+# 日志文件
+/logs/
+*.log

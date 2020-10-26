@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7c78ed68-a53e-4dd7-9987-d9637fbc48a7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaDeep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDeep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -23,6 +42,16 @@
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDeep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDeep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cglib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cglib/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/Face.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/Face.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/PerttyFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/PerttyFace.java" afterDir="false" />
+    </list>
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +68,7 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="245299056">
       <usages-collector id="statistics.lifecycle.project">
@@ -110,6 +140,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -122,6 +154,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -197,7 +230,15 @@
     <option name="y" value="109" />
     <option name="width" value="1323" />
     <option name="height" value="841" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   </component>
+  <component name="ProjectId" id="1jGmEbkhznsCQTEafZeOYSGqWXX" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -328,16 +369,23 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes />
+=======
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+<<<<<<< HEAD
     <property name="SearchEverywhereHistoryKey" value="run()&#9;PSI&#9;JAVA://thread.ThreadSaler#run&#10;postfix&#9;PSI&#9;JAVA://sun.awt.windows.WToolkit#postfix&#10;point&#9;PSI&#9;JAVA://datastructure.Point" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -348,13 +396,27 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="SearchEverywhereHistoryKey" value="point&#9;PSI&#9;JAVA://datastructure.Point" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/designmoudle/proxy" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34712642" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\JavaDeep\src\designmoudle\proxy" />
+      <recent name="D:\workspace\JavaDeep\lib" />
       <recent name="E:\workspace\JavaDeep\src\cglib" />
       <recent name="E:\workspace\JavaDeep" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -368,6 +430,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestParam">
+=======
+  <component name="RunManager" selected="Application.Main">
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -489,18 +554,158 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="DifferentWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronize.DifferentWork" />
+      <module name="JavaDeep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchronize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Main" />
+      <module name="JavaDeep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designmoudle.proxy.Main" />
+      <module name="JavaDeep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designmoudle.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="asynchronous.Test" />
+      <module name="JavaDeep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="asynchronous.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSaler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronize.ThreadSaler" />
+      <module name="JavaDeep" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchronize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+<<<<<<< HEAD
+=======
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -513,6 +718,10 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+<<<<<<< HEAD
+=======
+      <option name="TEST_OBJECT" value="CLASS" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -520,11 +729,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+<<<<<<< HEAD
+=======
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -532,12 +750,20 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+<<<<<<< HEAD
+=======
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+=======
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -571,13 +797,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="TestNG" factoryName="TestNG">
+=======
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+<<<<<<< HEAD
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -587,8 +819,19 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+=======
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -598,6 +841,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.ObejctSaler" />
       <item itemvalue="Application.ThreadSaler" />
       <item itemvalue="Application.Enum" />
@@ -611,6 +855,21 @@
         <item itemvalue="Application.Enum" />
         <item itemvalue="Application.ThreadSaler" />
         <item itemvalue="Application.ObejctSaler" />
+=======
+      <item itemvalue="Application.DifferentWork" />
+      <item itemvalue="Application.ThreadSaler" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ThreadSaler" />
+        <item itemvalue="Application.DifferentWork" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
       </list>
     </recent_temporary>
   </component>
@@ -681,6 +940,7 @@
       <workItem from="1494142751244" duration="10000" />
       <workItem from="1512396821468" duration="686000" />
       <workItem from="1512397562799" duration="104000" />
+<<<<<<< HEAD
       <workItem from="1513442465332" duration="1056000" />
       <workItem from="1514100022563" duration="98000" />
       <workItem from="1535785422725" duration="512000" />
@@ -697,6 +957,9 @@
       <workItem from="1548079525125" duration="654000" />
       <workItem from="1551341664188" duration="26000" />
       <workItem from="1556450644977" duration="444000" />
+=======
+      <workItem from="1603438694190" duration="1321000" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
     </task>
     <servers />
   </component>
@@ -714,6 +977,7 @@
       <configuration name="CalcTest.testMar" configurationId="JUnit" />
     </history-entry>
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="116381000" />
   </component>
@@ -794,6 +1058,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -803,6 +1082,7 @@
       <collection />
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -827,11 +1107,55 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
+=======
+  <component name="WindowStateProjectService">
+    <state x="440" y="129" key="#Project_Structure" timestamp="1603439774322">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="440" y="129" key="#Project_Structure/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603439774322" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1603440016926">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016926" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1603440016926">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016926" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1603440016926">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016926" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1603440016926">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016926" />
+    <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1603440016927">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016927" />
+    <state width="1877" height="339" key="GridCell.Tab.1.center" timestamp="1603440016927">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.1.center/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016927" />
+    <state width="1877" height="339" key="GridCell.Tab.1.left" timestamp="1603440016927">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.1.left/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016927" />
+    <state width="1877" height="339" key="GridCell.Tab.1.right" timestamp="1603440016927">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.1.right/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603440016927" />
+    <state x="440" y="129" key="SettingsEditor" timestamp="1603439980441">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="440" y="129" key="SettingsEditor/0.30.1920.1050/-1080.30.1080.1890@0.30.1920.1050" timestamp="1603439980441" />
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
@@ -1384,4 +1708,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> d45af4de1e84b0e3af2feb4dc36de737f498c62e
 </project>

@@ -5,7 +5,6 @@ package lambda;
  */
 public class PerttyFace implements Face{
 
-    @Override
     public void doSomething() {
         System.out.println("shit2");
     }
